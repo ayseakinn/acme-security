@@ -1,9 +1,9 @@
 ## 📋 Submission Information
 
-**Name:** [Your Full Name]  
-**Email:** [your.email@example.com]  
-**LinkedIn:** [linkedin.com/in/yourprofile] _(optional)_  
-**Submission Date:** [YYYY-MM-DD]
+**Name:** [Ayşe Akın]  
+**Email:** [ayse03akin@gmail.com]  
+**LinkedIn:** [www.linkedin.com/in/ayşe-akin-aaa776254] _(optional)_  
+**Submission Date:** [2025-11-10]
 
 ---
 
@@ -11,17 +11,17 @@
 
 Please confirm you've included all required items:
 
-- [ ] **Report** (PDF, max 5 pages)
+- [ x] **Report** (PDF, max 5 pages)
   - [ ] Section 1: Incident Analysis
   - [ ] Section 2: Architecture Review
   - [ ] Section 3: Response & Remediation
   
 - [ ] **Video Presentation** (10-15 minutes)
-  - [ ] Link provided in `video_link.md`
-  - [ ] Video is accessible (tested in incognito)
+  - [ x] Link provided in `video_link.md`
+  - [ x] Video is accessible (tested in incognito)
   - [ ] Duration is within guidelines
 
-- [ ] **File Structure**
+- [ x] **File Structure**
 ```
   submissions/firstname-lastname/
   ├── report.pdf
@@ -43,7 +43,7 @@ Please confirm you've included all required items:
 **Confidence level:**
 - [ ] Very confident in my analysis
 - [ ] Confident but some uncertainties
-- [ ] Attempted my best with available knowledge
+- [ x] Attempted my best with available knowledge
 
 ---
 
@@ -51,32 +51,32 @@ Please confirm you've included all required items:
 
 _Briefly describe your approach and key findings:_
 
-[Write here]
+[The manual penetration test identified IDOR, phishing, and SQL injection vulnerabilities in the system. These vulnerabilities could potentially lead to unauthorized access to user data and compromise data integrity. To enhance security, implementing authorization controls, MFA, and SIEM integration is recommended.]
 
 ---
 
 ## 🔍 Key Findings Highlight
 
 **Main attack vectors identified:**
-1. ___________
-2. ___________
-3. ___________
+1. IDOR ___________
+2. Phishing  ___________
+3. SQL Injection___________
 
 **Most critical vulnerability:**
-___________
+SQL Injection__________
 
 **Top recommendation:**
-___________
+Object-level authorization and MFA should be implemented, database accesses should be restricted using the least privilege principle, a secure query layer should be added with ORM, and attacks should be continuously monitored with SIEM.___________
 
 ---
 
 ## 💭 Challenges & Learnings
 
 **What was most challenging?**
-[Write here]
+[Detecting WAF evasion techniques]
 
 **What did you learn?**
-[Write here]
+[WAF evasion techniques]
 
 **What would you do differently?**
 [Write here]
@@ -94,14 +94,14 @@ Any context, assumptions, or additional information you'd like evaluators to kno
 ## ⚖️ Declaration
 
 I declare that:
-- [ ] This work is entirely my own
-- [ ] I have not copied from other submissions or answer keys
-- [ ] I have not modified the provided log files
+- [ x] This work is entirely my own
+- [ x] I have not copied from other submissions or answer keys
+- [x ] I have not modified the provided log files
 - [ ] All sources and tools are properly attributed
-- [ ] I understand plagiarism results in disqualification
+- [ x] I understand plagiarism results in disqualification
 
-**Signature:** [Your Name]  
-**Date:** [YYYY-MM-DD]
+**Signature:** [Ayşe Akın]  
+**Date:** [2025-11-10]
 
 ---
 
